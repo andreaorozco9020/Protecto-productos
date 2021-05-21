@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --primary-color: #F0A83E;
+    --secondary-color: #3C2313;
+    --tercer-color: #FFFFFF;
+   }
+   
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header>div{
+    height: 100px;
+    background-color: var(--primary-color);
+
+}
+
+span{
+    color: var(--tercer-color);
+}
+
+.negro{
+    color: black;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li a {
+    color: var(--tercer-color);
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+li a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+
+ul li {
+    display: inline;
+    
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between
+}
+.front{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+  
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+/**AQUI TERMINA EL HEADER*/
+
+/**AQUI EMPIEZA EL MAIN*/
+
+ h1{
+   color: var(--secondary-color);
+   font-size: 40px;
+   margin-top: 80px;
+   text-align: center;
+    
+}
+
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+
+.contenedor2 {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+    
+}
+
+.caja1{
+    
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+
+
+}
+
+.caja1:hover{
+    transform:scale(1.2)
+    
+}
+
+.caja2{
+  
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+
+}
+.caja2:hover{
+    transform:scale(1.2)
+    
+}
+.caja3{    
+    width: 265px;
+    height: 312px;
+    background-color: #FBFAF6;
+
+}
+
+.caja3:hover{
+    transform:scale(1.2)
+    
+}
+
+.juguete{
+    background-image: url('../img/churrasquito.png');
+    width: 300px;    
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+.comedero{
+    background-image: url('../img/comedero.png');
+    width: 300px;    
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.comida{
+    background-image: url('../img/comida\ perro.png');
+    width: 300px;    
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h4{
+    text-align: center;
+    font-size: 18px;
+    color: var(--secondary-color);
+
+    
+}
+
+p{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    color: var(--primary-color) ;
+}
+
+/**AQUI TERMINA EL MAIN*/
+
+/**AQUI EMPIEZA FOOTER*/
+footer{
+    margin-top:210px ;
+
+}
+.contenedor-footer1{
+    height: 130px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+.derechos{
+    height: 30px;
+    background-color: #000000;
+    color: var(--tercer-color);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.derechos>div{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.suscribete{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario{    
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    color: var(--tercer-color);
+    
+}
+
+
+input[type=email]{
+    width: 265px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: transparent;
+    margin-right: 10px;   
+ 
+}
+
+input[type=submit]{
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: transparent; 
+    background-color: var(--secondary-color);
+    color: var(--tercer-color);  
+ 
+}
+
+.derechos h3{
+    font-size: 12px;   
+  
+    
+
+}
+
+/*Modelo adaptativo tablet */
+@media screen and (max-width: 720px) {
+   
+    nav ul li {
+        display: none;
+
+    }   
+
+    nav::before{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f0c9";      
+        font-size: 30px;
+        color: var(--tercer-color);
+        margin-top: 25px;
+        margin-right: 15px;
+
+    }
+
+
+        
+    .contenedor2{
+        flex-direction: column;
+        justify-content: center;
+        }
+
+    .caja1{       
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 15px;
+        width: 50%;
+        
+    }
+
+    .caja2{       
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 15px;
+        width: 50%;
+    }
+    .caja3{       
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 15px;
+        width: 50%;
+    }
+
+    .juguete{
+        width: 100%;
+    }
+
+    .comedero{
+        width: 100%;
+    }
+     .comida{
+         width: 100%;
+     }
+
+     .contenedor-footer1{
+        flex-direction: column;
+        justify-content: center;
+
+     }
+
+     .suscribete{
+         margin-right: auto;
+         margin-left: auto;
+         
+     }
+
+     .formulario{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+       
+
+     }
+
+
+   
+     }
+
+     /**Modelo adaptativo tablet*/ 
+
+     @media screen and (max-width: 420px) {
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 20px;
+            }
+
+            input[type=email]{
+                width: 180px;
+                height: 40px;
+                 
+             
+            }
+            
+            input[type=submit]{
+                width: 60px;
+                height: 40px;
+
+             
+            }
+    
+        }
