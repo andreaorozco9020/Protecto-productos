@@ -110,38 +110,32 @@ h3{
     
     width: 265px;
     height: 380px;
-    background-color: #868581;
+    background-color: #FBFAF6;
+    ;
 
 
 }
 
-.caja1:hover{
-    transform:scale(1.2)
-    
-}
+
 
 .caja2{
   
     width: 265px;
     height: 380px;
-    background-color: #868581;
+    background-color:  #FBFAF6;
+
+    
 
 }
-.caja2:hover{
-    transform:scale(1.2)
-    
-}
+
 .caja3{    
     width: 265px;
     height: 380px;
     background-color: #FBFAF6;
 
+
 }
 
-.caja3:hover{
-    transform:scale(1.2)
-    
-}
 
 .juguete{
     background-image: url('../img/churrasquito.png');
@@ -296,7 +290,6 @@ input[type=submit]{
     .caja1{       
         margin-right: auto;
         margin-left: auto;
-        margin-top: 15px;
         width: 50%;
         
     }
@@ -304,13 +297,13 @@ input[type=submit]{
     .caja2{       
         margin-right: auto;
         margin-left: auto;
-        margin-top: 15px;
+        margin-top: 20px;
         width: 50%;
     }
     .caja3{       
         margin-right: auto;
         margin-left: auto;
-        margin-top: 15px;
+        margin-top: 20px;
         width: 50%;
     }
 
