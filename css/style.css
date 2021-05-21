@@ -109,8 +109,8 @@ h3{
 .caja1{
     
     width: 265px;
-    height: 312px;
-    background-color: #FBFAF6;
+    height: 380px;
+    background-color: #868581;
 
 
 }
@@ -123,8 +123,8 @@ h3{
 .caja2{
   
     width: 265px;
-    height: 312px;
-    background-color: #FBFAF6;
+    height: 380px;
+    background-color: #868581;
 
 }
 .caja2:hover{
@@ -133,7 +133,7 @@ h3{
 }
 .caja3{    
     width: 265px;
-    height: 312px;
+    height: 380px;
     background-color: #FBFAF6;
 
 }
